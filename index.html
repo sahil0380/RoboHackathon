@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robo Hackathon Event</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="robologo.png" alt="FrugalRobot Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="sponsor.html">SPONSOR</a></li>
+      <li><a href="schedule.html">SCHEDULE</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Robo Hackathon</h1>
+      <p>Join us in building the future with robotics and AI technology.</p>
+      <a href="#register" class="btn">Register Now</a>
+    </div>
+  </header>
+
+  <!-- About Robotics -->
+  <section class="about">
+    <h2>Why Robotics?</h2>
+    <p>Robots are revolutionizing industries, from AI-powered automation to futuristic humanoids. Be part of this exciting journey!</p>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="pricing">
+    <h2>Event Pricing</h2>
+    <div class="price-box">
+      <p><strong>Price per Team:</strong> 2500</p>
+      <p><strong>Maximum Teams:</strong> 30</p>
+    </div>
+  </section>
+
+  <!-- Registration Section -->
+  <section id="register" class="register">
+    <h2>Register for the Event</h2>
+    <form action="submit-form.php" method="post">
+      <label for="teamName">Team Name</label>
+      <input type="text" id="teamName" name="teamName" placeholder="Enter your team name" required>
+
+      <label for="Name">Your Name</label>
+      <input type="text" id="Name" name="Name" placeholder="Enter your name" required>
+
+      <label for="Phone">Phone</label>
+      <input type="tel" id="Phone" name="Phone" placeholder="Enter your phone number" required>
+
+      <label for="name">Member 2</label>
+      <input type="name" id="name2" name="name" placeholder="enter your name" required>
+
+      <label for="name">Member 3</label>
+      <input type="name" id="name3" name="name" placeholder="enter your name" required>
+
+      <label for="name">Member 4</label>
+      <input type="name" id="name4" name="name" placeholder="enter your name" required>
+
+      <label for="name">Member 5</label>
+      <input type="name" id="name5" name="name" placeholder="enter your name" required>
+
+      <div class="terms">
+        <input type="checkbox" id="Agree" name="Agree" required>
+        <label for="Agree">I agree to the terms and conditions</label>
+      </div>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-telegram"></i></a>
+    </div>
+    <p>Email: imsahilkumar4@gmail.com</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Full-Page Background */
+  body {
+    background: url(roboi.webp) no-repeat center center/cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: rgba(0, 0, 0, 0.8); 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+  }
+  
+  .logo img {
+    height: 100px;
+    width: 250px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0px 15px;
+    font-family: cursive;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 10px black;
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+    margin: 10px 0;
+    text-shadow: 2px 2px 5px black;
+  }
+  
+  .btn {
+    background: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #e6b800;
+  }
+  
+  /* About Section */
+  .about {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .about img {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .pricing{
+    text-align: center;
+    color: rgb(255, 4, 4);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 25px 50px;
+    border-radius: 10px;
+    width: 97%;
+    margin-left: 20px;
+  }
+  
+  /* Registration Form */
+  .register {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: 0 auto;
+    color: black;
+  }
+  
+  form label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #dcd4d4;
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .terms input {
+    margin-right: 10px;
+  }
+  
+  button.btn {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .socials a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .socials a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      padding: 10px 0;
+    }
+  
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-text p {
+      font-size: 1rem;
+    }
+  }
+  
